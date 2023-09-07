@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.whole{
+    height: 60vh;
+    width: 60vw;
+    padding: 70px;
+    /* background:linear-gradient(200deg, yellow, darkslateblue) ; */
+    background: linear-gradient(45deg,rgb(63, 63, 187),rgb(203, 55, 55));
+    color: darkslateblue;
+    border: 1px solid rgb(16, 20, 104);
+    box-shadow: 8px 8px 10px rgb(41, 41, 80),-8px -8px 10px rgb(41, 41, 80);
+    border-radius: 10px;
+}
+.wrapper{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background: linear-gradient(45deg,rgb(63, 63, 187),rgb(203, 55, 55));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+}
+.wrapper h2{
+    color:white;
+    font-size: 2.4rem;
+    font-weight: 900;
+    margin-top: -40px;
+    margin-bottom: 40px;
+    font-family: sans-serif;
+    text-shadow: 3px 3px 10px rgb(41, 41, 80);
+}
+.wrapper h2 span{
+    color:rgb(31, 10, 221);
+    text-shadow: 2px 2px 8px rgb(41, 41, 80);
+}
+textarea{
+    height: 13rem;
+    width: 38rem;
+    padding: 10px;
+    background-color: rgb(112, 112, 230);
+    color: white;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-size: 15px;
+    resize: none;
+    margin-bottom: 30px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 8px rgb(41, 41, 80),-2px -2px 8px rgb(41, 41, 80);
+}
+textarea::placeholder{
+    font-size: 16px;
+    color: rgb(27, 207, 244);
+}
+.box{
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    /* padding-right: 30px; */
+    padding: 10%;
+}
+button{
+    color: white;
+    background-color: rgb(31, 10, 221);
+    font-size: 1rem;
+    padding:6px 13px;
+    border: 1px solid black;
+    border-radius: 30px;
+    cursor: pointer;
+    outline: 0;
+    box-shadow: 1px 1px 3px rgb(41, 41, 80),-1px -1px 3px rgb(41, 41, 80);
+    transition: background-color 2s;
+
+}
+button:hover{
+    color:blue;
+    background-color:white;
+    font-weight: 600;
+}
+.btn{
+    display: flex;
+    gap: 5px;
+}
+select{
+    flex: 1;
+    color:white;
+    height: 30px;
+    background-color:rgb(112, 112, 230);
+    border-radius: 30px;
+    border: 1px solid black;
+    width: 200px;
+    /* appearance: none; */
+    box-shadow: 1px 1px 3px rgb(41, 41, 80),-1px -1px 3px rgb(41, 41, 80);
+
+}
+
+
+
+
+
+
+
+
+
